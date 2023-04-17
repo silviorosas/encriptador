@@ -1,0 +1,222 @@
+body{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 131);
+    background-color: rgb(236, 231, 231);
+}
+
+
+
+h1,h2{
+    text-align: center;
+    font-weight:10;
+   
+}
+
+
+.logo{
+    margin: 4px;
+    width: 6%;        
+}
+.logo2{
+    margin: 4px;
+    width: 10%;        
+}
+.izq{
+    float: left;
+    background-color: rgb(209, 209, 238);
+    width: 60%;
+    height:490px;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+.der{
+   float: right;
+    background-color: rgb(200, 240, 200);
+    width: 36%;
+    height:490px;
+    margin-right: 18px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+button{
+    display: inline;    
+    padding: 6px;
+    width: 120px;
+    border-radius: 20px;
+    border-style:solid;
+    border-width: 1px; 
+    cursor: pointer;  
+    margin-left: 20%;
+    
+}
+.enc{
+    background-color: rgb(147, 147, 241);
+    margin-top: 10%;
+}
+.desenc{
+    background-color: rgb(190, 187, 187);
+
+}
+
+.textarea{
+    background-color: rgb(209, 209, 238);
+    margin-left: 30%;
+    width: 40%;  
+    height: 35%;  
+    resize: none;
+}
+.parrafo2{
+   background-color: rgb(200, 240, 200);
+   text-align: center;
+}
+
+#botonCopiar{
+    display: none;
+    margin-top: 53%;
+    margin-left: 36%;
+    background: rgb(164, 194, 199);
+
+}
+main{    
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.texto-der{
+    text-align: center;
+    font-weight: 5;
+}
+
+.imagen{
+    text-align: center;   
+}
+
+.imagen img{    
+    width: 60%;
+}
+
+.ocultar{
+    display: none;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 180px;
+    background-color: beige;
+    text-align: center;
+}
+
+
+
+footer img{
+    margin-top: 10px;
+    width: 10%;
+}
+
+@media screen and (max-width:900px){
+
+    body{
+        background-color: rgb(219, 215, 215);
+    }
+
+    .izq{
+        width: 50%;
+    }
+
+    button{
+        display: block;
+        margin-left: 30%;          
+        padding: 6px;
+        width: 120px;
+        border-radius: 20px;
+        border-style:solid;
+        border-width: 1px; 
+        cursor: pointer;      
+        
+    }
+
+    .enc{
+        margin-bottom: 6%;
+        margin-top: 6%;
+    }
+
+    #botonCopiar{
+        margin-left: 25%;
+    }
+
+   
+}
+
+@media screen and (max-width:550px){
+
+    body{
+        background-color: rgb(219, 215, 215);
+       font-size: 12px;
+    }
+
+    .izq{
+        width: 50%;
+    }
+
+    button{
+        display: block;
+        margin-left: 25%;          
+        padding: 6px;
+        width: 120px;
+        border-radius: 20px;
+        border-style:solid;
+        border-width: 1px; 
+        cursor: pointer;      
+        
+    }
+
+    .enc{
+        margin-bottom: 6%;
+        margin-top: 6%;
+    }
+
+    #botonCopiar{
+        margin-left: 18%;
+    }
+
+   
+}
+
+@media screen and (max-width:450px){
+
+    body{
+        background-color: rgb(219, 215, 215);
+       font-size: 12px;
+    }
+
+    .izq{
+        width: 50%;
+    }
+
+    button{
+        display: block;
+        margin-left: 24%;          
+        padding: 6px;
+        width: 100px;
+        border-radius: 20px;
+        border-style:solid;
+        border-width: 1px; 
+        cursor: pointer;      
+        
+    }
+
+    .enc{
+        margin-bottom: 6%;
+        margin-top: 6%;
+    }
+
+    #botonCopiar{
+        margin-left: 12%;
+    }
+
+   
+}

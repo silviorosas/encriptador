@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+   
+    <title>Encriptador Alura One</title>
+</head>
+<body>
+    <div class="contenedor">
+   
+    <header>          
+    <h1> <img  src="./img/logo.png" alt="logo" >Encriptador Alura One</h1>
+    </header>
+    <main>    
+    <div class="izq">
+   
+    <h2>Ingrese texto</h2>
+    <textarea placeholder="Ingrese aquí el texto" class="textarea"  type="text"  id="textEncriptado">  </textarea>
+    <div>  
+    <button class="enc" type="submit" id="botonEnc">Encriptar</button>
+    <button class="desenc" type="submit" id="botonDesenc">Desencriptar</button>
+    </div>
+
+    </div>
+    <div class="der">
+       
+        <div class="contenedor-h2" ><h2>Texto a encriptar o desencriptar </h2></div> 
+        <div class="imagen">
+            <img src="img/Muñeco.png" alt="">
+        </div>       
+        <div class="parrafo2" name="" id="textDesencriptado">
+            <p>No ha ingresado texto!</p>     
+        </div>
+        <div>
+        <button class="copiar" type="submit" id="botonCopiar">Copiar</button>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <img src="img/logo1.png" >
+        <p class="copyright">&copy Copyright Silvio Rosas-2023</p>
+    </footer>
+    </div>
+</body>
+<script src="script.js"></script>
+<script>
+//en el querySelector le paso el id del boton encriptar luego igualo el boton a la function encriptar
+   let btn=document.querySelector("#botonEnc");
+    btn.onclick = encriptar;
+   let btn2=document.querySelector("#botonDesenc");
+    btn2.onclick =desencriptar;
+   let btn3=document.querySelector("#botonCopiar");
+    btn3.onclick =copiar;
+</script>
+</html>
